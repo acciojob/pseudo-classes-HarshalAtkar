@@ -1,11 +1,13 @@
 /*  your css code here. If applicable */
-html:root{
-	background-color:rgb(135, 206, 235);
-}
-p:nth-child(2){
+p:nth-child(1){
 	background-color:black;
 	color:white;	
 }
+
+html:root{
+	background-color:rgb(135, 206, 235);
+}
+
 
 p:last-child{
 	color:red;

@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+html:root{
+	background-color:rgb(135, 206, 235);
+}
+p:nth-child(2){
+	background-color:black;
+	color:white;	
+}
+
+p:last-child{
+	color:red;
+}
+ul{
+	width:50%;
+	padding:10px;
+}
+li:nth-child(odd){
+	background-color:white;
+}
+li:nth-child(even){
+	background-color:gray;
+}
+li:nth-child(3){
+	background-color:pink;
+}
